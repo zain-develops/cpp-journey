@@ -9,47 +9,46 @@ This repository documents my progress while learning and improving my C++ skills
 The goal is to develop a strong understanding of C++ while improving problem-solving and algorithmic thinking through consistent practice.
 
 🗂️ Topics Covered
-C++ Basics
-Variables & Data Types
-Input & Output
-Conditional Statements
-Loops
-Functions
-Arrays & Strings
-Pointers & References
-Structures
-Object-Oriented Programming
-Classes & Objects
-Constructors & Destructors
-Inheritance
-Polymorphism
-Encapsulation
-Templates
-STL (Standard Template Library)
-Vectors, Maps, Sets & Pairs
-Iterators
-Recursion
-Data Structures
-Algorithms
-Sorting & Searching
-Problem Solving
-Competitive Programming
-Mini Projects
+*C++ Basics
+*Variables & Data Types
+*Input & Output
+*Conditional Statements
+*unctions
+*Arrays & Strings
+*Pointers & References
+*Structures
+*Object-Oriented Programming
+*Classes & Objects
+*Constructors & Destructors
+*Inheritance
+*Polymorphism
+*Encapsulation
+*Templates
+*STL (Standard Template Library)
+*Vectors, Maps, Sets & Pairs
+*Iterators
+*Recursion
+*Data Structures
+*Algorithms
+*Sorting & Searching
+*Problem Solving
+*Competitive Programming
+*Mini Projects
 
 🎯 Goals
-Build a strong foundation in C++
-Understand programming concepts deeply
-Improve logical and problem-solving skills
-Learn and implement important data structures and algorithms
-Practice writing clean and efficient code
-Build real-world projects
-Prepare for technical interviews and competitive programming
+*Build a strong foundation in C++
+*Understand programming concepts deeply
+*Improve logical and problem-solving skills
+*Learn and implement important data structures and algorithms
+*Practice writing clean and efficient code
+*Build real-world projects
+*Prepare for technical interviews and competitive programming
 
 🛠️ Tools & Technologies
-Language: C++
-Compiler: GCC / G++
-Standard: C++17 or newer
-Editor/IDE: VS Code 
+*Language: C++
+*Compiler: GCC / G++
+*Standard: C++17 or newer
+*Editor/IDE: VS Code 
 
 🚀 Progress
 
