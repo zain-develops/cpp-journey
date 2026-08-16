@@ -27,5 +27,20 @@ int main(){
     cout << i <<"\n";
     cout << j <<"\n";
 
+ 
+    //Hypotenuse Calculator Practice Program
+    double x,y,z;
+    cout << "Enter your number X?";
+    cin >> x;
+    cout << "Enter your number Y?";
+    cin >> y;
+
+    x = std:: pow(x,2);
+    y = std:: pow(y,2);
+    z = std:: sqrt(x + y);
+
+    cout <<"Here is the side C : " << z;
+     
+    
     return 0;
 }
