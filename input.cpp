@@ -25,8 +25,6 @@ int main(){
 
     std::cout << "Marks :" << score <<"\n";
 
-
-
-
+    
      return 0;
 }
