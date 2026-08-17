@@ -39,4 +39,6 @@ int main(){
         cout << "Please enter your grade from (A-F)!";
         break;
     }
+
+    return 0;
 }
