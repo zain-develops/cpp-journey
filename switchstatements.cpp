@@ -8,6 +8,7 @@ int main(){
     cout <<"Enter your grade:";
     cin >> grade;
 
+ //Switch statements checks for each case until one case is true and if there's no true case then it moves to default case    
     switch (grade)
     {
     case 'A':
