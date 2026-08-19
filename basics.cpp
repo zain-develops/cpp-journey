@@ -45,5 +45,33 @@ int main() {
     cout <<eligible <<"\n";
     cout <<learning <<"\n";
 
+    //some useful string methods
+    std::string demo = "Hello friend!, how are you?";
+    std::string emo = "Hello Albert!";
+    std::string mo = "Nice job";
+    
+    std::cout << demo.length() <<"\n";    //checks string length
+
+    std::cout << demo.empty() <<"\n";     //empty the string and display length "0"
+
+    demo.clear();                         //clears the string value and nothing appears in console
+    std::cout << demo;                    
+
+    emo.append( ", Are you fine?");       //concatenate two strings
+    std::cout << emo << "\n";
+
+    std::cout << emo.at(0) <<"\n";        //gives you value on that specific index that you enter
+
+    mo.insert( 8 , "!" );                 //insert a specific value at specified index
+    std::cout << mo <<"\n";
+
+    std::cout << mo.find(" ") <<"\n";     //finds specific value and gave it's index
+
+
+                                          
+    mo.erase( 5 , 8 );                    //erases value from one index value to another that you have entered 
+    std::cout << mo <<"\n";               //in (5 , 8) first value is included while second value is not included when erase function is performed 
+                                          //It will erase till 7 just before 8
+
 }
 
