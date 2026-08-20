@@ -39,6 +39,15 @@ int main (){
         cout << "You've insufficient marks for this job!" << endl ;
     }
 
+    //ternary operator ?: = replacement of if/else statement
+    //condition ? expression1 : expression2;
+    int num = 45;
+    num % 2 == 0 ? cout << "Even" : cout <<"Odd" <<"\n";
+
+    //another way to use ternary operator
+    bool hungry = true;
+    cout << ( hungry ? "You are hungry" : "You are full");
+
     
     return 0;
 }
