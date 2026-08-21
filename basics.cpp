@@ -2,6 +2,14 @@
 #include <iostream>
 using namespace std;
 
+//comments are text that are not taken in program and are used for making notes for yourself or another peoples
+//types of comments
+//this is  a single line comment 
+/*this is a 
+  multi 
+  line 
+  comment*/
+
 int main() {
     cout <<"Hello World!" << '\n';
     cout <<"How are you!" << endl;
