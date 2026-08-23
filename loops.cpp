@@ -3,6 +3,7 @@
 int main(){
 
    //loops
+   //for lopps is used when you know exactly how many times you want to run the code
    for (int i = 0; i <= 5; i++)
    {
     std::cout << "I love donuts." <<std::endl;
@@ -15,7 +16,7 @@ int main(){
    
     std::cout << "End!";
 
-    //while loops is used when u wanna run run your code multiple times , it can run infinite times
+    //while loops is used when you wanna run your code multiple times( it can run infinite times )
     std::string name;
     while ( name.empty())
     {
