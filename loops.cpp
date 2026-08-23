@@ -24,6 +24,12 @@ int main(){
         std::getline(std::cin , name);
     }
 
-
+    //do while loops is used when you want your code to run atleast one time
+    float dec;
+    do
+    {
+        std::cout << "Enter a number : ";
+        std::cin >> dec ;
+    } while (dec <= 1);
 
 }
