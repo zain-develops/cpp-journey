@@ -42,4 +42,29 @@ int main(){
     }
 
     return 0;
+
+     //Break statement
+    //it is uesd when you want to break the loop at some point
+    for (int i = 0; i <= 32; i+=2)
+    {
+        //it will skip 26 number and onwards numbers that will be run in loop
+        if( i == 26 ){
+            break;
+        }
+        std::cout << i << "\n";
+
+    }
+    
+    //continue statement
+    //it is uesd when you want to break the loop at some point and then want it to continue after
+    for (int i = 0; i <= 39; i+=3)
+    {
+        //it will skip 24 number and then will continue till 39 number
+        if( i == 24 ){
+            continue;
+        }
+        std::cout << i << "\n";
+
+    }
+    
 }
