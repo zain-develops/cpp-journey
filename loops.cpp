@@ -15,6 +15,14 @@ int main(){
    
     std::cout << "End!";
 
+    //while loops is used when u wanna run run your code multiple times , it can run infinite times
+    std::string name;
+    while ( name.empty())
+    {
+        std::cout << "Enter a name : ";
+        std::getline(std::cin , name);
+    }
+
 
 
 }
