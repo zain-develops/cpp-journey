@@ -25,6 +25,36 @@ int main(){
     std:: cout << dice1 << std::endl;
     std:: cout << dice2 << std::endl;
     std:: cout << dice3 << std::endl;
+    
+
+    
+    srand(time(0));
+
+    int randEvent = rand() % 5 + 1;
+
+    switch (randEvent)
+    {
+    case 1:
+        std::cout << "Congratulations! You win a movie ticket. " << "\n";
+        break;
+
+    case 2:
+        std::cout << "Congratulations! You win 100 bucks. " << "\n";
+        break;
+
+    case 3:
+        std::cout << "Congratulations! You win an Iphone. " << "\n";
+        break;
+
+    case 4:
+        std::cout << "Congratulations! You win a Teddy-Bear. " << "\n";
+        break;
+
+    case 5:
+        std::cout << "Congratulations! You win a Russian." << "\n";
+        break;
+
+    }
 
     
 }
