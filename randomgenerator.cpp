@@ -14,5 +14,17 @@ int main(){
     std::cout << num1 <<"\n";
     std::cout << num2 <<"\n";
 
+
+    // A program that will generate random number for three dices
+    // Number will be random from (1-6)
+
+    int dice1 = ( rand() % 6 ) + 1;
+    int dice2 = ( rand() % 6 ) + 1;
+    int dice3 = ( rand() % 6 ) + 1;
+
+    std:: cout << dice1 << std::endl;
+    std:: cout << dice2 << std::endl;
+    std:: cout << dice3 << std::endl;
+
     
 }
