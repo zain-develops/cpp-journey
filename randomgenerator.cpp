@@ -27,7 +27,7 @@ int main(){
     std:: cout << dice3 << std::endl;
     
 
-    
+    // A random event generator that will give us evets based on random numbers
     srand(time(0));
 
     int randEvent = rand() % 5 + 1;
