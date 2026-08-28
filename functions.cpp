@@ -11,6 +11,11 @@ void otherFunction()
 //In this fuction we have declared it first and then enterd it's content (It's also right!)
 void demoFunction();
 
+//Function with parameters and arguements
+void Func(std::string name = "Bro"){
+     std::cout << "I am " << name <<".\n";
+    
+}
 
 int main(){
     
@@ -23,6 +28,13 @@ int main(){
 
      demoFunction();
 
+     Func();
+     Func("Ali");
+     Func("Sara");
+     Func("Asad");
+
+
+     return 0;
 }
 
 
