@@ -20,6 +20,12 @@ void Func(std::string name = "Bro"){
 //function demonstrating return keyword
 double square (double length);
 
+//Overloaded functions
+void makeShake(std::string toppings);
+
+void makeShake(std::string topping1 , std::string topping2);
+
+
 int main(){
     
     // User-defined-function should be declared before main function
@@ -39,9 +45,15 @@ int main(){
      double length = 8.0;
      double area = square(length);
 
-     std::cout << "Area : " << area ;
+     std::cout << "Area : " << area << "cm^2\n";
+
+
+     //Overloaded functions
+     makeShake("Chocolate");
+     makeShake("Chocolate" , "Vanilla");
 
      
+    
      // return = return a value back to thr spot where you called the encompassing function
      return 0;
 }
@@ -57,4 +69,19 @@ double square (double length){
     return length * length;
 }
 
+
+
+//Overloaded functions
+void makeShake(){
+    std::cout <<"Here is your milkshake\n";
+}
+
+void makeShake(std::string toppings){
+    std::cout <<"Here is your milkshake with " << toppings << ".\n";
+}
+
+
+void makeShake(std::string topping1 , std::string topping2){
+    std::cout <<"Here is your milkshake with " << topping1 <<" and " << topping2 << ".\n";
+}
 
