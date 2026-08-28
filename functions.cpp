@@ -17,6 +17,9 @@ void Func(std::string name = "Bro"){
     
 }
 
+//function demonstrating return keyword
+double square (double length);
+
 int main(){
     
     // User-defined-function should be declared before main function
@@ -33,7 +36,13 @@ int main(){
      Func("Sara");
      Func("Asad");
 
+     double length = 8.0;
+     double area = square(length);
 
+     std::cout << "Area : " << area ;
+
+     
+     // return = return a value back to thr spot where you called the encompassing function
      return 0;
 }
 
@@ -43,3 +52,9 @@ void demoFunction(){
     std::cout <<"I am declared first and then my content is entered.\n";
 
 }
+
+double square (double length){
+    return length * length;
+}
+
+
