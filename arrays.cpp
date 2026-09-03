@@ -51,6 +51,13 @@ int main (){
     }
 
 
+    // foreach loop = loop that eases the traversal over an iterable data set
+    //A better and easy way is to use foreach loop
+    int marks[] = {34, 43, 65, 78, 89};
+
+    for(int scores : marks){
+        std::cout << scores <<"\n";
+    }
     
     return 0;
 
