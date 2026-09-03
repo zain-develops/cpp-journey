@@ -27,6 +27,14 @@ int main (){
     std::cout << sizeof(clubs) << "Bytes\n";
 
 
+    //iterate over an array
+    std::string players[] = {"Ronaldo", "Messi", "Neymar"};
+
+    for(int i = 0 ; i < 3 ; i++){
+        std::cout << players[i] <<"\n";
+    }
+
+
     return 0;
 
 }
