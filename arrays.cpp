@@ -35,6 +35,15 @@ int main (){
     }
 
 
+    //A better approach for this is to use sizeof() operator
+    std::string newplayers[] = {"Mbappe", "Haaland", "Bellingham"};
+
+    for( int i = 0 ; i < sizeof(newplayers)/sizeof(std::string) ; i++){
+        std::cout << newplayers[i] <<"\n";
+    }
+
+    
+
     return 0;
 
 }
