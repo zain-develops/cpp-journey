@@ -1,5 +1,7 @@
 #include <iostream>
 
+int searchvalue(int array[], int size, int element);
+
 int main (){
 
 
@@ -58,7 +60,40 @@ int main (){
     for(int scores : marks){
         std::cout << scores <<"\n";
     }
-    
-    return 0;
 
+    //Search an array for an element using functions
+    int numbers[] = {19 , 27 , 34 , 48 , 52 , 65};
+    int size = sizeof(numbers)/sizeof(numbers[0]);
+    int index;
+    int mynum;
+
+
+    std::cout << "Enter the number you want to find : \n";
+    std::cin >> mynum;
+
+
+    index = searchvalue(numbers, size, mynum);
+
+    if (index != -1)
+    {
+        std::cout << mynum << " is at index " << index;
+
+    }
+    else{
+        std::cout << mynum << " is not in the array ";
+    }
+
+    return 0;
+    
 }
+
+int searchvalue(int array[], int size, int element){
+
+    for(int i = 0 ; i < size ; i++ ){
+         if(array[i] == element){
+            return i;
+         }
+    }
+    return -1;
+}
+
