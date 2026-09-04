@@ -2,6 +2,8 @@
 
 int searchvalue(int array[], int size, int element);
 
+void sorting(int sort[] , int size);
+
 int main (){
 
 
@@ -83,6 +85,19 @@ int main (){
         std::cout << mynum << " is not in the array ";
     }
 
+
+     //sorting array
+    int sort[]  = {4,9,5,7,1,8,10,2,6,3};
+    int size_ = sizeof(sort)/sizeof(sort[0]);
+
+    sorting(sort, size_);
+
+    for ( int elem : sort){
+        std::cout << elem << " ";
+
+    }
+
+    
     return 0;
     
 }
@@ -95,5 +110,21 @@ int searchvalue(int array[], int size, int element){
          }
     }
     return -1;
+}
+
+void sorting(int sort[] , int size_){
+
+    int temp;
+    for(int j = 0 ; j < size_ - 1 ; j++){
+        for(int k = 0 ; k < size_ - j - 1 ; k++){
+            if(sort[k] > sort[k + 1]){
+               temp = sort[k];
+               sort[k] = sort[k + 1];
+               sort[k + 1] = temp;
+            }
+        }
+
+    }
+
 }
 
