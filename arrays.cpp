@@ -72,6 +72,7 @@ int main (){
 
     std::cout << "Enter the number you want to find : \n";
     std::cin >> mynum;
+    std::cin.ignore();
 
 
     index = searchvalue(numbers, size, mynum);
@@ -107,6 +108,23 @@ int main (){
         std::cout<< laptop <<'\n';
     }
 
+
+    //fill an array with user input
+
+    std::string icecream[5];
+    int sizeis = sizeof(icecream)/sizeof(icecream[0]);
+
+    for(int i = 0 ; i < sizeis ; i++){
+        std::cout<< "Enter icecream flavour you like #" << i + 1 << " : \n";
+        std::getline(std::cin , icecream[i]);
+    }
+
+    std::cout <<"Following are the icecream flavours that you like : \n";
+
+    for(std::string flavours : icecream){
+        std::cout << flavours<<'\n';
+
+    }
     
     return 0;
     
