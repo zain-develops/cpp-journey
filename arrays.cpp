@@ -97,6 +97,16 @@ int main (){
 
     }
 
+
+    //fill() = print same value multiple times
+    std::string laptops[10];
+
+    fill(laptops , laptops + 10 , "lenovo" );
+
+    for(std::string laptop : laptops){
+        std::cout<< laptop <<'\n';
+    }
+
     
     return 0;
     
