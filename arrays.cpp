@@ -140,6 +140,22 @@ int main (){
     std::cout<< cars[2][0]<< " ";                         
     std::cout<< cars[2][1]<< " ";                         
     std::cout<< cars[2][2]<< "\n"; 
+
+    //Another example of 2d arrays using nested loops
+    std::string countries[3][3] = {{"Germany" , "France" , "Italy"},
+                                   {"Brazil" , "Chile" , "Peru"}, 
+                                   {"Japan" , "Russia" , "China"}};                
+
+    int rows = sizeof(countries)/sizeof(countries[0]);
+    int columns = sizeof(countries[0])/sizeof(countries[0][0]);
+
+    for(int i = 0 ; i < rows ; i++){
+        for(int j = 0 ; j < columns ; j++){
+           std::cout<< countries[i][j] <<" ";
+        }
+        std::cout<< "\n";
+    }
+    
     
     return 0;
     
