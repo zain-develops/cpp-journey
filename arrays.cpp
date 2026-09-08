@@ -157,6 +157,8 @@ int main (){
     }
 
     //Tomorrow's im gonna come with a new program
+    //It will be a quiz game in which we will make a game where you have to choose riht answers
+    //It will be an interesting game
     
     return 0;
     
