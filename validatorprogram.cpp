@@ -51,3 +51,13 @@ int sumOddNum(const std::string cardNumber){
 
 }
 
+int sumEvenNum(const std::string cardNumber){
+
+    int sum = 0;
+
+    for(int i = cardNumber.size() - 2; i >= 0; i-=2){
+        sum += getdigit((cardNumber[i] - '0') * 2);
+    }
+
+    return sum;
+}
